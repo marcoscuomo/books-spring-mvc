@@ -4,13 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HomeController {
+public class ProdutosController {
 	
-	@RequestMapping("/")
-	public String index() {
-		System.out.println("Entrando na Home"); 
-		
-		return "home"; 
-	}
+	@RequestMapping("/produtos/form")
 
 }

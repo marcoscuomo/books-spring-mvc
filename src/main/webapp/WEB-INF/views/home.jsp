@@ -8,7 +8,14 @@
 </head>
 <body>
 
-	<h1>Casa do código</h1>	
+	<h1>Casa do código</h1>
+	
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>		
 
 </body>
 </html>
