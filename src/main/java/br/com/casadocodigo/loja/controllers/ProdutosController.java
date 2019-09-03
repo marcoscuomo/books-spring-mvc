@@ -5,7 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ProdutosController {
-	
-	@RequestMapping("/produtos/form")
+
+    @RequestMapping("/produtos/form")
+    public String form(){
+        return "produtos/form";
+    }
 
 }
