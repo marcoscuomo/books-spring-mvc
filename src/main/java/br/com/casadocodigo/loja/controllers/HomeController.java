@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	
 	@RequestMapping("/")
-	public void index() {
-		System.out.println("Entrando na Home");
+	public String index() {
+		System.out.println("Entrando na Home"); 
+		
+		return "home.jsp"; 
 	}
 
 }
